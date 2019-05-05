@@ -1,0 +1,46 @@
+.work-list {
+  @include list-default;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -20px;
+}
+
+.work-list__item {
+  width: 340px;
+  margin: 0 27px;
+  margin-bottom: 30px;
+  border: 1px solid $base-color;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-list__item p {
+  margin: 0;
+}
+
+.work-list__item img {
+  margin: 0 auto;
+  max-height: 235px;
+}
+
+.work-list__item-title {
+  font-size: 30px;
+}
+
+.work-list__item .work-list__item-descript {
+  width: 80%;
+  margin: 0 auto 30px;
+  // min-height: 240px;
+}
+
+.btn-work {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 240px;
+}
+
+@media (min-width: $tablet-width) {
+
+}

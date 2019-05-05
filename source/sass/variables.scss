@@ -1,0 +1,22 @@
+/*Цвета*/
+$base-color: #000000;
+$second-base-color: #ffffff;
+// $background-color: #4169e1;
+// $form-bg-color: #f2f2f2;
+$text-color: #000000;
+$accent: #daa520;
+
+@mixin list-default {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*Размеры брейкпоинтов*/
+$wide-mobile: 576px;
+$tablet-width: 768px;
+$wide-tablet-width: 992px;
+$desktop-width: 1200px;
+/*Разрешения*/
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;

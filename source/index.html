@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio - AndreyAh</title>
+    <!-- <link rel="preload" href="fonts/ptsansbold.woff2" as="font"> -->
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="wrapper">
+        <div class="main-header__top main-header__top--close main-header__top--nojs">
+          <div class="main-heder__logo">Портфолио Ахраменко Андрея</div>
+          <button  class="btn-nav-open btn-nav" type="button">
+          <!-- <img src="img/icon-menu.svg" width="23" height="21" alt="Иконка меню"> -->
+          <svg  x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
+            <g>
+              <rect fill="#ffffff" width="22.928" height="3.964"/>
+              <rect fill="#ffffff" y="9.009" width="22.928" height="3.964"/>
+              <rect fill="#ffffff" y="18.018" width="22.928" height="3.964"/>
+            </g>
+          </svg>
+          <span class="visualy-hidden">Открыть меню</span>
+          </button>
+          <button class="btn-nav-close btn-nav" type="button">
+          <!-- <img src="img/icon-cross.svg" width="23" height="21" alt="Иконка меню"> -->
+          <svg x="0px" y="0px" width="22.199px" height="22.199px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve">
+            <polygon fill="#ffffff" points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 "/>
+            </svg>
+            <span class="visualy-hidden">Закрыть меню</span>
+            </button>
+            <nav class="main-header__nav">
+              <ul class="main-header__nav-list">
+                <li class="main-heder__item"><a href="#about">Обо мне</a></li>
+                <li class="main-heder__item"><a href="#skills">Навыки</a></li>
+                <li class="main-heder__item"><a href="#portfolio">Портфолио</a></li>
+                <li class="main-heder__item"><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__wrapper">
+            <h1 class="main-header__wrapper-title">Верстка сайтов с "душой"!</h1>
+            <p class="main-header__wrapper-text">Я ценю свое время, поэтому к каждой работе я подхожу максимально серьезно и ответственно!</p>
+            <a href="#about" class="btn">Почему вы должны заказать верстку у меня!</a>
+          </div>
+        </div>
+      </header>
+      <main class="main-page">
+        <section class="about" id="about">
+          <h2 class="about__title title">Обо мне:</h2>
+          <p class="separatop">
+            <span class="separator__dot"></span>
+          </p>
+          <div class="about__wrapper">
+            <div class="about__img">
+              <picture>
+                <img src="img/I_am.jpg" alt="I am">
+              </picture>
+            </div>
+            <div class="about__text">
+              <p>Доброго времени суток!
+                Зовут меня Ахраменко Андрей. Проживаю в Новосибирском Академгородке. Занимаюсь версткой около двух лет в качестве хобби. Пока верстаю "для души". Опыта работы над реальными проектами пока нет (но уже готов получить :)).
+              </p>
+              <p>На данный момент продолжаю оттачивать навыки верстки, изучаю JS, jQuery и другие технологии из сферы веб-разработки. Недавно успешно прошел: <a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный онлайн‑курс HTML и CSS, уровень 2</a>, о чем имеется <a href="#win">сертификат</a> ;).</p>
+              <p>Пункутуален, ответственнен, стессоустойчив. Готов к работе в команде, можно в качестве стажера. Без вредный привычек.</p>
+            </div>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <!--  <div class="welcome">
+            <p class="welcome__text"><span></span></p>
+          </div> -->
+          <h2 class="skills__title title">Мои навыки:</h2>
+          <p class="separatop">
+            <span class="separator__dot"></span>
+          </p>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <div class="skills__item-icon">
+                <img src="img/icons/icon-html5.svg" alt="HTML 5">
+              </div>
+              <h3 class="skills__item-titile">HTML 5</h3>
+              <p class="skills__item-descript">Семантическая, полностью валидная верстка.</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon skills__item-icon--css3">
+                <img src="img/icons/icons-css3.svg" alt="CSS 3">
+              </div>
+              <h3 class="skills__item-titile">CSS 3</h3>
+              <p class="skills__item-descript">Чистый, удобочитаемый и редактируемый код</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon">
+                <img src="img/icons/icon-javascript.svg" alt="JS">
+              </div>
+              <h3 class="skills__item-titile">JS</h3>
+              <p class="skills__item-descript">Написание собственных скриптов, оптимизация.</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon">
+                <img src="img/icons/icon-jquery.svg" alt="Jquery">
+              </div>
+              <h3 class="skills__item-titile">jQuery</h3>
+              <p class="skills__item-descript">Использование, редактирование плагинов.</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon skills__item-icon--boot">
+                <img src="img/icons/icon-bootstrap1.svg" alt="bootstrap">
+              </div>
+              <h3 class="skills__item-titile">Bootstrap(Grid)</h3>
+              <p class="skills__item-descript">Ускорение верстки адаптивных сайтов.</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon">
+                <img src="img/icons/icon-sass.svg" alt="SASS">
+              </div>
+              <h3 class="skills__item-titile">SASS</h3>
+              <p class="skills__item-descript">Ускоренное написание стилей.</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon">
+                <img src="img/icons/icon-gulp.svg" alt="GULP">
+              </div>
+              <h3 class="skills__item-titile">GULP</h3>
+              <p class="skills__item-descript">Автоматизация верстки.</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon skills__item-icon--edge">
+                <img src="img/icons/icon-edge.svg" alt="Edge">
+              </div>
+              <h3 class="skills__item-titile">Кроссбраузерная верстка</h3>
+              <p class="skills__item-descript">Поддержка всех основных браузеров.</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon">
+                <img src="img/icons/icon-mobile.svg" alt="Mobile">
+              </div>
+              <h3 class="skills__item-titile">Адаптивная верстка</h3>
+              <p class="skills__item-descript">Адаптация под мобильные устройства</p>
+            </li>
+            <li class="skills__item">
+              <div class="skills__item-icon">
+                <img src="img/icons/icon-photoshop.svg" alt="Photoshop">
+              </div>
+              <h3 class="skills__item-titile">Photoshop</h3>
+              <p class="skills__item-descript">Работа с графикой.</p>
+            </li>
+          </ul>
+        </section>
+        <section class="portfolio" id="portfolio">
+          <h2 class="title">Портфолио:</h2>
+          <p class="separatop">
+            <span class="separator__dot"></span>
+          </p>
+          <ul class="work-list">
+            <!-- <p><a class="image-popup" title="Это описание изображения" href="img/Sertificat.png">
+            <img src="img/I_am.jpg" alt="Это мое!!!"/></a>
+          </p> -->
+          <li class="work-list__item">
+            <p>
+              <a class="image-popup" title="Макет главной страницы" href="img/technomart-index.jpg">
+                <img src="img/technomart-small.jpg" alt="Сайт 'техномарт'" class="work-list__item-img">
+              </p>
+              <h3 class="work-list__item-title">Техномарт</h3>
+              <p class="work-list__item-descript">Учебный проект от HTML Academy. Первый уровень  HTML и CSS. Фиксированная верстка с использованием Flexbox</p>
+              <a href="jobs/Technomart/index.html" class="btn btn-work">Посмотреть работу</a>
+            </li>
+            <li class="work-list__item">
+                <p>
+                <a class="image-popup" title="Макет главной страницы" href="img/sedona-index.jpg">
+                  <img src="img/sedona-small.jpg" alt="Сайт 'Седона'"class="work-list__item-img">
+                </p>
+                <h3 class="work-list__item-title">Седона</h3>
+                <p class="work-list__item-descript">Учебный проект от HTML Academy. Второй уровень  HTML и CSS. Адаптивная, кроссбраузерная верстка с использованием Flexbox. При верстке использовался препроцессор SASS, сборщик GULP, была произведена оптимизация скорости загрузки.</p>
+                <a href="jobs/Sedona/index.html" class="btn btn-work">Посмотреть работу</a>
+              </li>
+              <li class="work-list__item">
+                <img src="img/pink-small.jpg" alt="Сайт 'Pink'" class="work-list__item-img">
+                <h3 class="work-list__item-title">Pink</h3>
+                <p class="work-list__item-descript">Учебный проект от HTML Academy. Второй уровень  HTML и CSS. Адаптивная, кроссбраузерная верстка с использованием Flexbox. При верстке использовался препроцессор SASS, сборщик GULP, была произведена оптимизация скорости загрузки.</p>
+                <a href="#" class="btn btn-work">Посмотреть работу</a>
+              </li>
+              <li class="work-list__item">
+                <img src="img/cat-energy-small.jpg" alt="Сайт 'Кэт энержи'" class="work-list__item-img">
+                <h3 class="work-list__item-title">Cat Energy</h3>
+                <p class="work-list__item-descript">Учебный проект от HTML Academy. Второй уровень  HTML и CSS. Адаптивная, кроссбраузерная верстка с использованием Flexbox. При верстке использовался препроцессор SASS, сборщик GULP, была произведена оптимизация скорости загрузки.</p>
+                <a href="#" class="btn btn-work">Посмотреть работу</a>
+              </li>
+              <li class="work-list__item">
+                <img src="img/voronina-small.jpg" alt="Лендинг пэйдж" class="work-list__item-img">
+                <h3 class="work-list__item-title">Voronina</h3>
+                <p class="work-list__item-descript">Тренировочный лендинг для закрепления навыков верстки и самостоятельной работой с графикой на 100%.</p>
+                <a href="#" class="btn btn-work">Посмотреть работу</a>
+              </li>
+              <li class="work-list__item">
+                <img src="img/smitler-small.png" alt="Лендинг Смитлер" class="work-list__item-img">
+                <h3 class="work-list__item-title">S$Mitler</h3>
+                <p class="work-list__item-descript">Тренировочный лендинг в котором подробна разобрана работа с различными плагинами и кастомными скриптами.</p>
+                <a href="#" class="btn btn-work">Посмотреть работу</a>
+              </li>
+              <li class="work-list__item">
+                <img src="img/portfolio-small.png" alt="Лендинг Смитлер" class="work-list__item-img">
+                <h3 class="work-list__item-title">Portfolio</h3>
+                <p class="work-list__item-descript">Собственно сайт на котором вы находитесь :). В нем и спользован весь опыт верски и первый опыт работы Дизайнером.</p>
+                <a href="#" class="btn btn-work">Посмотреть работу</a>
+              </li>
+            </ul>
+          </section>
+        </main>
+        <!-- <main class="main-page">
+          <section class="reasons">
+            <h1 class="visualy-hidden">Причины посещения</h1>
+            <ul class="reasons-list">
+              <li class="reasons-list__item">
+                <div class="reasons-list__item-wrapper">
+                  <h2 class="reasons-list__item-title">Настоящий городок</h2>
+                  <span class="reasons-list__item-number">№1</span>
+                  <p class="reasons-list__item-descript">Седона не аттракцион для туристов, там течет своя жизнь</p>
+                </div>
+                <picture class="reasons-list__item-image-wrapper">
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.webp 1x, img/main-city-desktop@1x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px )" srcset="img/main-city-tablet@1x.webp 1x, img/main-city-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/main-city-mobile@1x.webp 1x, img/main-city-mobile@2x.webp 2x">
+                  <source  srcset="img/main-city-desktop@1x.jpg" media="(min-width: 1200px)">
+                  <source srcset="img/main-city-tablet@1x.jpg" media="(min-width: 768px)">
+                  <img class="reasons-list__item-image" src="img/main-city-tablet@1x.jpg" alt="Фото городка">
+                </picture>
+                <ul class="features-list">
+                  <li class="features-list__item features-list__item--housing">
+                    <h1 class="features-list__item-title">Жилье</h1>
+                    <p class="features-list__item-descript">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                  </li>
+                  <li class="features-list__item features-list__item--souvenirs">
+                    <h1 class="features-list__item-title">Сувениры</h1>
+                    <p class="features-list__item-descript">
+                    Не только китайского, <br> но и местного производства!</p>
+                  </li>
+                  <li class="features-list__item features-list__item--food">
+                    <h1 class="features-list__item-title">Еда</h1>
+                    <p class="features-list__item-descript">Всегда заказывайте фирменнный бургер, Вы не разочаруетесь!</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="reasons-list__item">
+                <div class="reasons-list__item-wrapper">
+                  <h2 class="reasons-list__item-title">Там есть <br> мост дьявола
+                  </h2>
+                  <span class="reasons-list__item-number">№2</span>
+                  <p class="reasons-list__item-descript">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+                </div>
+                <picture class="reasons-list__item-image-wrapper">
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.webp 1x, img/main-bridge-desktop@1x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px )" srcset="img/main-bridge-tablet@1x.webp 1x, img/main-bridge-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/main-bridge-mobile@1x.webp 1x, img/main-bridge-mobile@2x.webp 2x">
+                  <source srcset="img/main-bridge-desktop@1x.jpg" media="(min-width: 1200px)">
+                  <source srcset="img/main-bridge-tablet@1x.jpg" media="(min-width: 768px)">
+                  <img src="img/main-bridge-mobile@1x.jpg" alt="Фото моста дьявола" class="reasons-list__item-image">
+                </picture>
+              </li>
+              <li class="reasons-list__item">
+                <div class="reasons-list__item-wrapper">
+                  <h2 class="reasons-list__item-title">Небольшая площадь
+                  </h2>
+                  <span class="reasons-list__item-number">№3</span>
+                  <p class="reasons-list__item-descript">Все интересные места находятся очень близко</p>
+                </div>
+              </li>
+              <li class="reasons-list__item">
+                <div class="reasons-list__item-wrapper">
+                  <h2 class="reasons-list__item-title">Красивая дорога
+                  </h2>
+                  <span class="reasons-list__item-number">№4</span>
+                  <p class="reasons-list__item-descript">Ехать в Седону из Лас- Вегаса совсем не скучно!</p>
+                </div>
+              </li>
+              <li class="reasons-list__item">
+                <div class="reasons-list__item-wrapper">
+                  <h2 class="reasons-list__item-title">Мало туристов
+                  </h2>
+                  <span class="reasons-list__item-number">№5</span>
+                  <p class="reasons-list__item-descript">Большинство едет в гранд каньон и толпится там</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="find-hotels">
+            <div class="find-hotels__wrapper">
+              <h2 class="find-hotels__title">Заинтересовались?</h2>
+              <p class="find-hotels__text">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+              <a href="search-hotels.html"  class="btn btn-find">Найти гостиницу</a>
+            </div>
+            <iframe class="find-hotels__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af06b8f6c0fa411838c30c9277f9348f3a18922ea9d2d3a77ba368978c203ed9b&amp;source=constructor" width="320" height="350"></iframe> -->
+            <!-- <div class="find-hotels__map" id="map"></div>
+          </section> -->
+        <!-- </main>
+        <footer class="page-footer">
+          <p class="page-footer__hashtag"><a href="#">#visitsedona</a></p>
+          <div class="page-footer__social social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a class="social__link social__link--twitter" href="https://twitter.com" title="Перейти на https://twitter.com">
+                  <img src="img/icon-twitter.svg" width="18" height="15" alt="Логотип Твиттер">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--facebook" href="https://ru-ru.facebook.com" title="Перейти на https://ru-ru.facebook.com">
+                  <img src="img/icon-facebook.svg" width="9" height="19" alt="Логотип Фейсбук">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--youtube" href="https://www.youtube.com" title="Перейти на https://www.youtube.com">
+                  <img src="img/icon-youtube.svg" width="15" height="14" alt="Логотип Ютуб">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-footer__copyright copyright">
+            <p class="copyright__text">Разработано</p>
+            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" title="Перейти на https://htmlacademy.ru/intensive/adaptive">
+              <svg class="copyright__link-img"  width="27" height="34">
+                <use xlink:href="img/sprite.svg#logo-html"></use>
+              </svg>
+            </a>
+          </div>
+        </footer> -->
+        <section class="modal">
+          <a href="#x" class="overlay" id="win"></a>
+          <div class="popup">
+            <img src="img/Sertificat.png" alt="Сертификат">
+            <a class="close"title="Закрыть" href="#close"></a>
+          </div>
+          <!--  <div class="modal__img">
+            <img src="img/Sertificat.png" alt="Сертификат">
+            <button class="close"></button>
+          </div> -->
+        </section>
+        <!-- Подключение MagnificPopup  -->
+        <!-- <p><a class="image-popup" title="Это описание изображения" href="img/Sertificat.png">
+        <img src="img/I_am.jpg" alt="Это мое!!!"/></a>
+      </p> -->
+      <!-- Конец Подключение MagnificPopup  -->
+      <script src="js/open-close.js"></script>
+      <script src="js/svg4everybody.js"></script>
+      <script>svg4everybody()</script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <script src="js/common.js"></script>
+      <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=<d20a64c5-022a-4497-b6f9-65e1c7745f49>&lang=ru_RU" type="text/javascript">
+      </script>
+      <script src="js/map.js"></script> -->
+    </body>
+  </html>
