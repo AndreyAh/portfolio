@@ -1,6 +1,5 @@
 .work-list {
   @include list-default;
-  background-color: green;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
