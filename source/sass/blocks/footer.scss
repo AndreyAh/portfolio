@@ -1,0 +1,19 @@
+.page-footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 50px 0;
+  color: $second-base-color;
+}
+
+.footer__logo {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.footer__logo a {
+  color: $second-base-color;
+
+  &:hover {
+    color: $accent;
+  }
+}
