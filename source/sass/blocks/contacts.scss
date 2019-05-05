@@ -11,7 +11,38 @@
 }
 
 .contacts__list-item {
-  width: 400px;
+  width: 320px;
   border: 1px solid;
+  padding: 10px;
   margin: 10px;
+  text-align: center;
+  opacity: 0.6;
+  transition: all 0.5s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.contacts__list-item a {
+  color: #ffffff;
+}
+
+.contacts__list-item-info {
+  color: #ffffff;
+}
+
+.contacts__list-item p {
+  margin: 0 auto;
+}
+
+.contact__list-item-icon {
+  width: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  margin: 5px 0;
+}
+
+.contact__list-item-icon img {
+  margin: 0 auto;
 }

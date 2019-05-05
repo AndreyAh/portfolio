@@ -3,12 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 -20px;
+  // margin: 0 -27px;
 }
 
 .work-list__item {
-  width: 340px;
-  margin: 0 27px;
+  width: 320px;
+  // margin: 0 27px;
   margin-bottom: 30px;
   border: 1px solid $base-color;
   text-align: center;
@@ -32,7 +32,6 @@
 .work-list__item .work-list__item-descript {
   width: 80%;
   margin: 0 auto 30px;
-  // min-height: 240px;
 }
 
 .btn-work {
@@ -41,6 +40,8 @@
   width: 240px;
 }
 
-@media (min-width: $tablet-width) {
-
+@media (min-width: $wide-mobile) {
+  .work-list__item {
+    margin: 0 27px 30px;
+  }
 }
