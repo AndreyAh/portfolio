@@ -7,15 +7,17 @@
 //      });
 //   });
  // <!-- Конец скролинга -->
- //Magnific-popups начало
-jQuery(document).ready(function($) {
-  $('.image-popup').magnificPopup({
-    type: 'image',
-    zoom: {
-         enabled: true,
-         duration: 500 // продолжительность анимации. Не меняйте данный параметр также и в CSS
-     },
+/**Удален так как конфликтует с попапом на CSS */
 
-  });
-});
+ //Magnific-popups начало
+// jQuery(document).ready(function($) {
+//   $('.image-popup').magnificPopup({
+//     type: 'image',
+//     zoom: {
+//          enabled: true,
+//          duration: 500 // продолжительность анимации. Не меняйте данный параметр также и в CSS
+//      },
+
+//   });
+// });
 // Конец
