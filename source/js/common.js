@@ -9,7 +9,7 @@
  // <!-- Конец скролинга -->
 /**Удален так как конфликтует с попапом на CSS */
 
- //Magnific-popups начало
+ // Magnific-popups начало
 // jQuery(document).ready(function($) {
 //   $('.image-popup').magnificPopup({
 //     type: 'image',
@@ -17,7 +17,8 @@
 //          enabled: true,
 //          duration: 500 // продолжительность анимации. Не меняйте данный параметр также и в CSS
 //      },
-
+//      fixedContentPos: true,
+//      closeOnContentClick: true
 //   });
 // });
 // Конец

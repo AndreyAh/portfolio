@@ -1,0 +1,100 @@
+/*===== popup begin ===== >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+// #myImg-hover, #myImg2-hover, #myImg3-hover, #myImg4-hover, #myImg5-hover {
+//     cursor: pointer;
+//     -webkit-transition: 0.3s;
+//     -o-transition: 0.3s;
+//     transition: 0.3s;
+//     /*visibility: hidden;*/
+//     opacity: 0;
+// }
+
+#myImgJ1, #myImgJ2, #myImgJ3, #myImgJ4, #myImgJ5, #myImgJ6, #myImg7 {
+  cursor: pointer;
+}
+
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7 {
+  cursor: pointer;
+  transition: 0.3s;
+  /*visibility: hidden;*/
+  display: none;
+}
+
+/* The Modal (background) */
+.modal-portfolio {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #000; /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close-portfolio {
+    position: fixed;
+    top: 70px;
+    right: 5%;
+    color: #f1f1f1;
+    background-color: red;
+    font-size: 26px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #bbb;
+}
+
+.close-portfolio:hover,
+.close-portfolio:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+/*===== popup end   ===== >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
